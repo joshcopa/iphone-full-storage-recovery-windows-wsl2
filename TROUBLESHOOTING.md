@@ -1,6 +1,6 @@
 # Troubleshooting
 
-[Back to README](README.md) · [Español](README.es.md) · [Technical report](RECOVERY-REPORT.md)
+[Back to README](README.md) · [Español](TROUBLESHOOTING.es.md) · [Technical report](RECOVERY-REPORT.md)
 
 An error is a clue, not a diagnosis. Start with the exact message and the stage that failed, then check the corresponding layer before changing anything.
 
