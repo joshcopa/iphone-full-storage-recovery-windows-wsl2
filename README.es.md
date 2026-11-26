@@ -58,3 +58,5 @@ Si consigues llegar a `DONE`, recuerda que el siguiente objetivo es una copia de
 ## ¿Te ha resultado útil?
 
 La documentación es de acceso gratuito. Si te ha ayudado, una estrella en GitHub, compartir un resultado anonimizado o recomendar la guía a quien la necesite son excelentes formas de contribuir. Recuerda también agradecer y apoyar a los desarrolladores originales que hicieron posible la recuperación.
+
+Si además quieres apoyar el tiempo dedicado a documentar esta recuperación y futuros proyectos creativos, puedes [invitarme a un café en Ko-fi](https://ko-fi.com/joshcopa). Es totalmente voluntario: la guía seguirá siendo gratuita. Un poco de curiosidad, un poco de cafeína y quizá otro rollo de filamento.
