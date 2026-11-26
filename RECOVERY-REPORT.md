@@ -1,6 +1,6 @@
 # Technical recovery report
 
-[Back to README](README.md) · [Español](README.es.md) · [Troubleshooting](TROUBLESHOOTING.md)
+[Back to README](README.md) · [Español](RECOVERY-REPORT.es.md) · [Troubleshooting](TROUBLESHOOTING.md)
 
 From repeated recovery errors to a successful boot: this report records what changed between attempts, what was observed, and what remains uncertain.
 
@@ -116,4 +116,4 @@ Only after the update and startup have completed: stop temporary USB forwarding 
 
 ## Credits
 
-See [the main acknowledgements](README.md#acknowledgements). All upstream code and patches remain attributed to their original authors. This report adds observations about integrating their solutions on Windows/WSL2.
+See [the main acknowledgements](README.md#acknowledgements--made-possible-by-open-source). All upstream code and patches remain attributed to their original authors. This report adds observations about integrating their solutions on Windows/WSL2.
