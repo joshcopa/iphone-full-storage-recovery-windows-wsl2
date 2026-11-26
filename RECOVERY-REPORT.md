@@ -1,10 +1,12 @@
 # Technical recovery report
 
-[Back to README](README.md)
+[Back to README](README.md) · [Español](README.es.md) · [Troubleshooting](TROUBLESHOOTING.md)
+
+From repeated recovery errors to a successful boot: this report records what changed between attempts, what was observed, and what remains uncertain.
 
 ## Environment
 
-Historical configuration: Windows 11; WSL2 Ubuntu 26.04; usbipd-win 5.3.0; iPhone 15 family, 128 GB, iPhone15,4 / d37ap; iOS 27.2.1 build 24B156. These are non-unique product identifiers. No device-specific identifiers are included.
+Historical configuration: Windows 11; WSL2 Ubuntu 26.04; usbipd-win 5.3.0; iPhone 15, 128 GB, iPhone15,4 / d37ap; iOS 27.2.1 build 24B156. These are non-unique product identifiers. No device-specific identifiers are included.
 
 - idevicerestore base 60192e9 plus the [original Cryptex patch](https://github.com/3SENN/iphone-stuck-in-recovery-full-storage) and local iBEC timeout modification.
 - libirecovery base d767ca5, with local hotplug reference management and tracing.
@@ -83,7 +85,7 @@ sudo "$HOME/usbmuxd-fix/src/usbmuxd" -f -v -v
 
 Ensure only one daemon is running. Check lsusb and use irecovery -q locally to confirm Recovery; do not publish its output without redaction.
 
-The original Cryptex guide supplied the size suggestion tool. It reported 6036 MiB and suggested 6784 MiB for the historical build; this is not universal. Verify BuildManifest Upgrade identity and RestoreBehavior=Update. The successful command structure was:
+The original Cryptex guide supplied the size suggestion tool. With no restore log supplied to that tool, it reported 6036 MiB and suggested 6784 MiB (+748 MiB) for the historical build; this is not universal. Follow the upstream sizing instructions for the actual device and firmware. Verify BuildManifest Upgrade identity and RestoreBehavior=Update. The successful command structure was:
 
 ```bash
 ECID='YOUR_ECID'
@@ -98,7 +100,7 @@ sudo env LD_LIBRARY_PATH="$HOME/libirecovery/install/lib" \
 
 This assumes the historical local build prefixes. Confirm all placeholders and dependencies first. Never pass -e, -y or --ignore-errors. A no-action check (-n) is not a complete restore simulation.
 
-## Successful result
+## Successful result — the welcome sight of DONE
 
 ```text
 Status: Restore Finished
@@ -106,7 +108,7 @@ DONE
 progress: 7 1.000000
 ```
 
-The device completed its own subsequent progress bar, displayed Hello, and existing data was accessible after unlocking. No independent forensic comparison of every file was made. Create an encrypted backup promptly.
+The device completed its own subsequent progress bar, displayed Hello, and existing data was accessible after unlocking. No independent forensic comparison of every file was made. Create an encrypted backup promptly, keep its password safe, and verify the backup before deleting any data.
 
 ## Cleanup
 
