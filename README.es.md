@@ -10,6 +10,16 @@ Si te encuentras en una situación parecida, este caso puede servirte de punto d
 
 **Advertencia:** procedimiento experimental. Incluso Update puede causar pérdida de datos. Si son irremplazables, considera un especialista antes de escribir firmware. No elijas Erase ni omitas las confirmaciones de seguridad. Comprueba la compatibilidad y firma vigente del IPSW.
 
+## ¿Es este caso relevante para ti?
+
+| Síntoma | Por dónde empezar |
+| --- | --- |
+| Error 100 / `install_splat` / `Failed preallocation due to space` | [Método original de recuperación Cryptex](https://github.com/3SENN/iphone-stuck-in-recovery-full-storage) |
+| Problemas de reconexión iBEC o captura de Restore Mode en Windows | [Diagnóstico de errores](TROUBLESHOOTING.md) |
+| Fallo NORData con un mensaje de 65536 bytes que supera el límite de 65535 | [Informe técnico y solución alternativa USB/IP](RECOVERY-REPORT.md) |
+
+Otros errores de restauración pueden tener causas diferentes. Comprueba el registro real antes de intentar actualizar el firmware.
+
 ## Agradecimientos — gracias a la comunidad de código abierto
 
 La recuperación fue posible gracias a los autores de los proyectos originales:
@@ -44,3 +54,7 @@ El caso se comunicó a [3SENN (incidencia #36)](https://github.com/3SENN/iphone-
 Caso único, sin reproducción independiente desde una instalación limpia. No se publican identificadores únicos, datos privados ni logs completos. Los modelos y versiones de software son referencias técnicas compartidas. No se garantiza la recuperación ni se acredita la necesidad individual de todos los cambios locales.
 
 Si consigues llegar a `DONE`, recuerda que el siguiente objetivo es una copia de seguridad verificada. ¡Gracias por contribuir a que el conocimiento siga circulando!
+
+## ¿Te ha resultado útil?
+
+La documentación es de acceso gratuito. Si te ha ayudado, una estrella en GitHub, compartir un resultado anonimizado o recomendar la guía a quien la necesite son excelentes formas de contribuir. Recuerda también agradecer y apoyar a los desarrolladores originales que hicieron posible la recuperación.
