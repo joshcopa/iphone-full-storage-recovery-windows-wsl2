@@ -1,6 +1,8 @@
 # Recuperación de iPhone con almacenamiento lleno — Windows 11 y WSL2
 
-[English](README.md) · [Informe técnico (EN)](RECOVERY-REPORT.md) · [Diagnóstico (EN)](TROUBLESHOOTING.md)
+**Idioma: [English](README.md) | Español**
+
+[Informe técnico](RECOVERY-REPORT.es.md) · [Diagnóstico](TROUBLESHOOTING.es.md)
 
 **Nueve intentos, varios obstáculos de comunicación USB y, por fin: ¡`DONE`!** 🎉
 
@@ -15,8 +17,8 @@ Si te encuentras en una situación parecida, este caso puede servirte de punto d
 | Síntoma | Por dónde empezar |
 | --- | --- |
 | Error 100 / `install_splat` / `Failed preallocation due to space` | [Método original de recuperación Cryptex](https://github.com/3SENN/iphone-stuck-in-recovery-full-storage) |
-| Problemas de reconexión iBEC o captura de Restore Mode en Windows | [Diagnóstico de errores](TROUBLESHOOTING.md) |
-| Fallo NORData con un mensaje de 65536 bytes que supera el límite de 65535 | [Informe técnico y solución alternativa USB/IP](RECOVERY-REPORT.md) |
+| Problemas de reconexión iBEC o captura de Restore Mode en Windows | [Diagnóstico de errores](TROUBLESHOOTING.es.md) |
+| Fallo NORData con un mensaje de 65536 bytes que supera el límite de 65535 | [Informe técnico y solución alternativa USB/IP](RECOVERY-REPORT.es.md) |
 
 Otros errores de restauración pueden tener causas diferentes. Comprueba el registro real antes de intentar actualizar el firmware.
 
@@ -35,7 +37,7 @@ Gracias a todos los desarrolladores, mantenedores y usuarios que compartieron su
 
 ## Procedimiento general
 
-Empieza por la [guía original de Cryptex](https://github.com/3SENN/iphone-stuck-in-recovery-full-storage). El [informe técnico](RECOVERY-REPORT.md) contiene los comandos históricos y la [guía de diagnóstico](TROUBLESHOOTING.md) recoge los errores de WSL2. Estos documentos complementan la guía original, no la sustituyen.
+Empieza por la [guía original de Cryptex](https://github.com/3SENN/iphone-stuck-in-recovery-full-storage). El [informe técnico](RECOVERY-REPORT.es.md) contiene los comandos históricos y la [guía de diagnóstico](TROUBLESHOOTING.es.md) recoge los errores de WSL2. Estos documentos complementan la guía original, no la sustituyen.
 
 1. Seguir la guía original de 3SENN para compilar idevicerestore con el parche Cryptex y sus dependencias.
 2. Configurar WSL2 y usbipd-win para mantener la conexión durante los cambios de modo USB (Recovery y Restore Mode).
