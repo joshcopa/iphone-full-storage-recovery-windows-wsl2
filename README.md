@@ -10,6 +10,16 @@ If you are facing a similar problem, this case offers a starting point: identify
 
 > **Warning:** This is an experimental case report, not a guaranteed recovery procedure. Even an Update can cause data loss. If data is irreplaceable, consider a qualified recovery specialist. Never choose Erase or bypass safety prompts. Check firmware compatibility and current Apple signing status.
 
+## Is this case relevant to you?
+
+| What you see | Where to start |
+| --- | --- |
+| Error 100 / `install_splat` / `Failed preallocation due to space` | [Original Cryptex recovery method](https://github.com/3SENN/iphone-stuck-in-recovery-full-storage) |
+| iBEC reconnect or Restore Mode capture problems on Windows | [Troubleshooting](TROUBLESHOOTING.md) |
+| NORData failure with a 65536-byte message exceeding the 65535-byte limit | [Technical report and USB/IP workaround](RECOVERY-REPORT.md) |
+
+Other restore errors may have different causes. Match the actual log before attempting a firmware update.
+
 ## Acknowledgements — made possible by open source
 
 This recovery was made possible by the open-source community. This repository documents the combination of existing solutions, not authorship of their patches.
@@ -51,3 +61,7 @@ The results were shared with [3SENN (issue #36)](https://github.com/3SENN/iphone
 One successful case; no independent clean-machine reproduction or forensic verification of every file. No unique device identifiers, personal information, original private logs or firmware binaries are included. Upstream projects retain their licenses and credits.
 
 If this helps you reach `DONE`, remember that the next milestone is a verified backup. Happy troubleshooting, and thank you for keeping open-source knowledge moving forward!
+
+## Found this useful?
+
+The documentation is freely accessible. If it helped, a GitHub star, an anonymized recovery report, or sharing the guide with someone who needs it are all welcome ways to give back. Please also thank and support the upstream developers who made the recovery possible.
