@@ -1,6 +1,8 @@
 # iPhone full-storage recovery — Windows 11 and WSL2
 
-[Español](README.es.md) · [Technical report & commands](RECOVERY-REPORT.md) · [Troubleshooting](TROUBLESHOOTING.md)
+**Language: English | [Español](README.es.md)**
+
+[Technical report & commands](RECOVERY-REPORT.md) · [Troubleshooting](TROUBLESHOOTING.md)
 
 **Nine attempts, several USB communication obstacles, and finally: `DONE`!** 🎉
 
