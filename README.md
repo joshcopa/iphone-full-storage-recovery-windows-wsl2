@@ -65,3 +65,5 @@ If this helps you reach `DONE`, remember that the next milestone is a verified b
 ## Found this useful?
 
 The documentation is freely accessible. If it helped, a GitHub star, an anonymized recovery report, or sharing the guide with someone who needs it are all welcome ways to give back. Please also thank and support the upstream developers who made the recovery possible.
+
+If you would also like to support the time spent documenting this recovery and future creative projects, you can [buy me a coffee on Ko-fi](https://ko-fi.com/joshcopa). It is entirely optional — the guide remains free. A little curiosity, a little caffeine, and perhaps another spool of filament!
